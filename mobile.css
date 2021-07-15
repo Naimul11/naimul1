@@ -1,0 +1,45 @@
+  /*mobile css*/
+
+body{   
+    width:100vw;
+    display:grid;
+    height:100%;
+    justify-items:center;
+    align-items:center;
+    font-size:5rem;
+    }
+    
+.main{   
+    width:80vw; 
+    display:grid;
+    justify-content:center;
+    align-content:center;
+    grid-auto-flow:row;
+    border-radius:1rem;
+    overflow:hidden;
+    }
+.main .st{  
+    width:80vw;
+    height:65vh;
+    background: #3695bd ;
+    display:grid;
+    justify-content:center;
+    align-content:center;
+    }
+.main .nd{  
+    width:80vw;
+    height:65vh;
+    background: #bd2070 ;
+    display:grid;
+    justify-content:center;
+    align-content:center;
+    }
+.main .rd{  
+    width:80vw;
+    height:65vh;
+    background: #191717;
+    color:white;
+    display:grid;
+    justify-content:center;
+    align-content:center;
+    }

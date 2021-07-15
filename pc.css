@@ -1,0 +1,50 @@
+
+ /* pc css */
+    
+     body{   
+    height:100vh;
+    width:230vw;
+    background:pink;
+    display:grid;
+    justify-content:center;
+    align-content:center;
+    margin: 2rem;
+    }
+    
+body .main{    
+    height:100vh;
+    width:100vw;
+    display:grid;
+    justify-content:center;
+    grid-auto-flow:column;
+    font-size:7em;
+    }
+    
+.main .st{    
+    height:65vh;
+    width:75vw;
+    background: #3695bd;
+    display:grid;
+    place-items:center;
+    border-top-left-radius:2rem;
+    border-bottom-left-radius:2rem;
+    }
+ .main .nd{    
+    height:65vh;
+    width:75vw;
+    background: #bd2070;
+       display:grid;
+    place-items:center;
+    
+    }
+    
+.main .rd{    
+    height:65vh;
+    width:75vw;
+    background: #191717;
+    color:white;
+       display:grid;
+    place-items:center;
+      border-top-right-radius:2rem;
+    border-bottom-right-radius:2rem;
+    }
